@@ -1,0 +1,21 @@
+.card-elem {
+  position: relative;
+  width: 100%;
+  background-color: #fafafa;
+  border-radius: 4px;
+  border: 1px solid #e5e5e5e5;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.card-elem__delete {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  width: 20px;
+  height: 20px;
+  background-image: url("../../assets/img/delete-begin.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: none;
+}
